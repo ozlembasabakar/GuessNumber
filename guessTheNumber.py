@@ -39,7 +39,7 @@ for g in range(0, size):
     try:
         guess = input()
         guess_list.append(str(guess))
-        number = guessNumber(guess, 0)
+        number = guessNumber(guess, seed_number)
         if number == 'You should write 4 characters.':
             result_list = number
         else:
